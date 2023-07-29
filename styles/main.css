@@ -217,7 +217,7 @@ span {
 
 footer>p {
     text-align: center;
-    font-size: calc(var(--index) * .5);
+    font-size: calc(var(--index) * .6);
     font-family: kamrik-3d;
     color: var(--color-header);
     color: #fff;
