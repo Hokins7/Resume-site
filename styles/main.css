@@ -120,7 +120,7 @@ body {
     margin-top: calc(var(--index) * 13);
 }
 
-.hero-content__p {
+.hero-content__p, .hero-content__p2 {
     transform: none;
     font-family: merriweather-italic-3d;
     letter-spacing: normal;
@@ -128,7 +128,11 @@ body {
     line-height: 3;
 }
 
-.button-linkedin {
+.hero-content__p2 {
+    font-size: calc(var(--index) * 1);
+}
+
+.button-linkedin, .button-github {
     font-family: Arial;
     font-weight: 600;
     text-transform: uppercase;
