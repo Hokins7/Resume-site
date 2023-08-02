@@ -129,7 +129,7 @@ body {
 }
 
 .hero-content__p2 {
-    font-size: calc(var(--index) * 1.1);
+    font-size: calc(var(--index) * 1);
 }
 
 .button-linkedin, .button-github {
