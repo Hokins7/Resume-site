@@ -130,6 +130,12 @@ body {
 
 .hero-content__p2 {
     font-size: calc(var(--index) * 1);
+    margin-left: calc(var(--index) * 1);
+    margin-right: calc(var(--index) * 1);
+}
+
+.buttons {
+    display:inline-flex
 }
 
 .button-linkedin, .button-github {
