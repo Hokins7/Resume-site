@@ -30,7 +30,7 @@
                             <h1>QA Automation Engineer</h1>
                             <div class="hero-content__p">"Where Quality Meets Automation, Excellence is Born"</div>
                             <div class="buttons">
-                                <form action="https://www.linkedin.com/in/anatolii-senko-575747180/" target="_blank">
+                                <form action="https://www.linkedin.com/in/anatolii-senko-qa/" target="_blank">
                                     <button class="button-linkedin">Explore my Linkedin</button>
                                 </form>
                                 <p class="hero-content__p2">or</p>
