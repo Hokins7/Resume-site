@@ -232,3 +232,13 @@ footer>p {
     color: var(--color-header);
     color: #fff;
 }
+
+@media (max-width: 680px){
+    .gallery{
+        display: block;
+    }
+
+    .gallery__item {
+        max-width: calc(var(--index) * 30);
+    }
+}
