@@ -131,7 +131,8 @@
                                         retrospective, etc.)</li>
                                     <li>Responsibly ensured high quality requirements by writing detailed automated
                                         tests.</li>
-                                    
+                                    <li>Reported test results to a manager.</li>
+                                    <li>Shared knowledge with other members of the testing team.</li>
                                 </ul>
 
 
