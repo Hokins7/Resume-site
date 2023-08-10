@@ -147,8 +147,7 @@
                                 </ul><br><br>
                                 <h2 class="text-block__h">EDUCATION</h2>
                                 <ul class="text-block__p">
-                                    <li><span>(2013) &nbsp No Degree |</span> National Pirogov Memorial Medical
-                                        University, Ukraine , Vinnitsa</li><br>
+                                    
                                 </ul>
                             </div>
 
