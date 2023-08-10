@@ -70,7 +70,8 @@
                                 <h3 class="job-position">ASSOCIATE TESTER</h3>
                                 <h4 class="company">IDroidApp | Roseville, CA &nbsp (02/2017 to 04/2019)</h4>
                                 <ul class="text-block__p">
-                                    
+                                    <li>Reviewed business and functional requirements in order to produce a test
+                                        strategy and test Plan.</li>
                                     <li>Developed, documented and maintained functional test cases (functional
                                         testing for sprint testing and regression) and other artifacts.</li>
                                     <li>Tested software released by executing assigned functional and regression test
@@ -130,8 +131,7 @@
                                         retrospective, etc.)</li>
                                     <li>Responsibly ensured high quality requirements by writing detailed automated
                                         tests.</li>
-                                    <li>Reported test results to a manager.</li>
-                                    <li>Shared knowledge with other members of the testing team.</li>
+                                    
                                 </ul>
 
 
