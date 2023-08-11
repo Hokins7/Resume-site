@@ -246,4 +246,12 @@ footer>p {
         font-size: calc(var(--index) * 1.8);
         line-height: 2;
     }
+
+    .buttons {
+        display:block;
+    }
+    .button-linkedin, .button-github {
+        font-size: calc(var(--index) * 1);
+        padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
+    }
 }
