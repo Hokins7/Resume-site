@@ -248,10 +248,10 @@ footer>p {
     }
 
     .buttons {
+        margin-top: 30px;
         display:block;
     }
     .button-linkedin, .button-github {
-        font-size: calc(var(--index) * 1);
-        padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
+        font-size: calc(var(--index) * 1.3);
     }
 }
