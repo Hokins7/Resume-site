@@ -49,7 +49,7 @@ body {
 
 }
 
-.logo, .button-github, .button-linkedin{
+.button-github, .button-linkedin{
     cursor: url(../img/work/space-cursor-2.png), pointer;
 }
 
