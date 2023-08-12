@@ -14,11 +14,6 @@
     scrollbar-color: orange green;
 }
 
-body{
-     cursor: url('/img/work/space-cursor-1.png'), auto;
-}
-
-
 
 :root {
     --index: calc(1vw + 1vh);
@@ -46,6 +41,7 @@ body{
 }
 
 body {
+    cursor: url('/img/work/space-cursor-1.png'), auto;
     background-color: black;
     color: white;
     font-family: kamrik-3d;
@@ -53,8 +49,11 @@ body {
 
 }
 
+.logo, .button-github, .button-linkedin{
+    cursor: url(../img/work/space-cursor-2.png), pointer;
+}
+
 .logo {
-    cursor: url(../img/work/starter-space-pack.png), pointer;
     --logo-size: calc(var(--index) * 8);
     width: var(--logo-size);
     height: var(--logo-size);
@@ -156,7 +155,6 @@ body {
     border-radius: 10em;
     border: rgb(255 255 255 / .4) 3px solid;
     outline: none;
-    cursor: pointer;
 }
 
 h2,
