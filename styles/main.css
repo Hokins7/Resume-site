@@ -45,7 +45,7 @@ body {
     background-color: black;
     color: white;
     font-family: kamrik-3d;
-   
+    overflow-x: hidden;
 
 }
 
