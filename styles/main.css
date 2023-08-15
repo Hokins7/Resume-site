@@ -20,7 +20,7 @@
     --transition: 1.5s cubic-bezier(.05, .5, 0, 1);
     --color-text: #cdc6c3;
     --color-header: #f4efec;
-    --gallery-gap: calc(var(--index) * 7.4)
+    --gallery-gap: calc(var(--index) * 7.5)
 }
 
 
