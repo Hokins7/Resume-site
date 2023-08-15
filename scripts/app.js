@@ -2,7 +2,6 @@ window.onload = () => {
 	var Cookies = document.cookie.split(';');
          for (var i = 0; i < Cookies.length; i++)
          document.cookie = Cookies[i] + "=;expires=" + new Date(0).toUTCString();
-         console.log('Done');
 }
 
 document.addEventListener('mousemove', el => {
