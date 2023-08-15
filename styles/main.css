@@ -41,7 +41,7 @@
 }
 
 body {
-    cursor: url('/img/work/rocket.png'), auto;
+    cursor: url('/img/work/cursor-1.png'), auto;
     background-color: black;
     color: white;
     font-family: kamrik-3d;
@@ -50,7 +50,7 @@ body {
 }
 
 .button-github, .button-linkedin{
-    cursor: url(../img/work/rocket-2.png), pointer;
+    cursor: url(../img/work/cursor-2.png), pointer;
 }
 
 .logo {
