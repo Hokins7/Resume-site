@@ -166,22 +166,32 @@ body {
 @keyframes slidein {
     from {
         box-shadow:
-        0 0 0 0 #e9e8ee,
-        0 0 0 0 #b4b1b8,
-        0 0 0 0 #6f6d72,
-        0 0 0 0 #333136,
-        0 0 0 0 #101b39;
+            inset 0 0 0 #e9e8ee,
+            inset 0 0 0 #b4b1b8,
+            inset 0 0 0 #6f6d72,
+            inset 0 0 0 #333136,
+            inset 0 0 0 #101b39,
+            0 0 0 0 #e9e8ee,
+            0 0 0 0 #b4b1b8,
+            0 0 0 0 #6f6d72,
+            0 0 0 0 #333136,
+            0 0 0 0 #101b39;
     }
-  
+
     to {
         box-shadow:
-        0 0 30px 5px #e9e8ee,
-        0 0 60px 10px #b4b1b8,
-        0 0 90px 15px #6f6d72,
-        0 0 110px 20px #333136,
-        0 0 140px 30px #101b39;
+            inset 0 0 10px #e9e8ee,
+            inset 4px 0 16px #b4b1b8,
+            inset -4px 0 16px #6f6d72,
+            inset 4px 0 60px #333136,
+            inset -4px 0 60px #101b39,
+            0 0 30px 5px #e9e8ee,
+            0 0 60px 10px #b4b1b8,
+            0 0 90px 15px #6f6d72,
+            0 0 110px 20px #333136,
+            0 0 140px 30px #101b39;
     }
-  }
+}
 
 h2,
 h3,
