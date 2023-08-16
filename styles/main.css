@@ -166,20 +166,20 @@ body {
 @keyframes slidein {
     from {
         box-shadow:
-        0 0 0 0 #cbe58e,
-        0 0 0 0 #a1ce3f,
-        0 0 0 0 #107e57,
-        0 0 0 0 #014760,
-        0 0 0 0 #013026;
+        0 0 0 0 #e9e8ee,
+        0 0 0 0 #b4b1b8,
+        0 0 0 0 #6f6d72,
+        0 0 0 0 #333136,
+        0 0 0 0 #101b39;
     }
   
     to {
         box-shadow:
-        0 0 30px 5px #cbe58e,
-        0 0 60px 10px #a1ce3f,
-        0 0 90px 15px #107e57,
-        0 0 110px 20px #014760,
-        0 0 140px 30px #013026;
+        0 0 30px 5px #e9e8ee,
+        0 0 60px 10px #b4b1b8,
+        0 0 90px 15px #6f6d72,
+        0 0 110px 20px #333136,
+        0 0 140px 30px #101b39;
     }
   }
 
