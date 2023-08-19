@@ -1,17 +1,18 @@
 window.onload = () => {
 	var Cookies = document.cookie.split(';');
-         for (var i = 0; i < Cookies.length; i++){
-         	document.cookie = Cookies[i] + "=;expires=" + new Date(0).toUTCString();
-		 }
+	for (var i = 0; i < Cookies.length; i++) {
+		document.cookie = Cookies[i] + "=;expires=" + new Date(0).toUTCString();
+	}
 }
 
+
 document.addEventListener('mousemove', el => {
-    Object.assign(document.documentElement, {
-        style: `
+	Object.assign(document.documentElement, {
+		style: `
         --move-x: ${(el.clientX - window.innerWidth / 2) * -.005}deg;
         --move-y: ${(el.clientX - window.innerHeight / 2) * -.01}deg;
         `
-    })
+	})
 })
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)

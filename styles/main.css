@@ -49,6 +49,7 @@ body {
 
 }
 
+
 .logo {
     --logo-size: calc(var(--index) * 8);
     width: var(--logo-size);
