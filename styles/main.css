@@ -55,7 +55,7 @@ body {
     width: var(--logo-size);
     height: var(--logo-size);
     position: absolute;
-    left: calc(50% - calc(var(--logo-size) / 3));
+    left: calc(50% - calc(var(--logo-size) / 2));
     top: calc(var(--index) * 2.8);
     z-index: 1;
 }
