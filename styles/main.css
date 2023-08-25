@@ -248,7 +248,6 @@ footer>p {
 }
 
 #comets{
-    position:relative;
     top:-150px;
     width:100vw;
     text-align: left; 
@@ -258,10 +257,10 @@ footer>p {
   }
   
   #comets i {
-    transform: translateZ(30px) scale(.7);
     display: inline-block;
     width: 250px;
-    height: 150px;position:absolute;
+    height: 150px;
+    position:absolute;
     border-radius: 5% 40% 70%;
     box-shadow: inset 0px 0px 1px #294b67;
     border: 1px solid #333;
@@ -272,22 +271,25 @@ footer>p {
   
   
   #comets i:nth-child(1){
+    transform: translateZ(30px) scale(.7);
     left: 50vw;
-    height:73px; 
+    height:173px; 
     width:3px;
     background-color: #fff;
   }
   #comets i:nth-child(3){
-    height:11px; 
+    transform: translateZ(30px) scale(.7);
+    height:111px; 
     width:3px;
     -webkit-animation: falling3 8s 3s infinite;
     left: 10vw;
   background-color: #fff;
   }
   #comets i:nth-child(2){
+    transform: translateZ(30px) scale(.7);
     -webkit-animation: falling2 6s 1s infinite;
     left: 30vw;
-    height:70px; 
+    height:170px; 
     width:4px;
     background-color: #fff;
   
