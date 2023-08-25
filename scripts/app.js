@@ -5,10 +5,6 @@ window.onload = () => {
 	}
 }
 
-window.addEventListener('scroll', e => {
-	document.body.style.cssText = `--scrollTop: `
-})
-
 
 document.addEventListener('mousemove', el => {
 	Object.assign(document.documentElement, {
