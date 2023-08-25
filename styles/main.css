@@ -265,8 +265,8 @@ footer>p {
     box-shadow: inset 0px 0px 1px #294b67;
     border: 1px solid #333;
     opacity: .7;
-    -webkit-animation: falling 10s 0s infinite;
-    -webkit-animation-timing-function:ease-in;
+    animation: falling 10s 0s infinite;
+    animation-timing-function:ease-in;
   }
   
   
@@ -281,13 +281,13 @@ footer>p {
     transform: translateZ(30px) scale(.7);
     height:111px; 
     width:3px;
-    -webkit-animation: falling3 8s 3s infinite;
+    animation: falling2 6s 1s infinite;
     left: 10vw;
   background-color: #fff;
   }
   #comets i:nth-child(2){
-    transform: translateZ(30px) scale(.7);
-    -webkit-animation: falling2 6s 1s infinite;
+     transform: translateZ(30px) scale(.7);
+     animation: falling2 6s 1s infinite;
     left: 30vw;
     height:170px; 
     width:4px;
@@ -298,7 +298,7 @@ footer>p {
   
   
   
-  @-webkit-keyframes falling {
+  @keyframes falling {
   
     0% {
       -webkit-transform: translate3d(100px,0px,0px) rotate(160deg);
@@ -316,7 +316,7 @@ footer>p {
     }
   }
   
-  @-webkit-keyframes falling3 {
+  @keyframes falling3 {
    0% {
     -webkit-transform: translate3d(0,0,0) rotate(150deg);
   }
@@ -332,7 +332,7 @@ footer>p {
   }
   }
   
-  @-webkit-keyframes falling2 {
+  @keyframes falling2 {
    0% {
     -webkit-transform:translate3d(100px,0,0) rotate(130deg);
   }
