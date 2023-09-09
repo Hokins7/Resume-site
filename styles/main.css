@@ -92,15 +92,15 @@ body {
 }
 
 .layer-1 {
-    transform: translateZ(-120px) scale(1.16);
+    transform: translateZ(-120px) scale(1.15);
 }
 
 .layer-2 {
-    transform: translateZ(-80px) scale(1.4);
+    transform: translateZ(-80px) scale(1.2);
 }
 
 .layer-3 {
-    transform: translateZ(30px) scale(.9);
+    transform: translateZ(30px) scale(.7);
 }
 
 .layer-4 {
@@ -108,11 +108,11 @@ body {
 }
 
 .layer-5 {
-    transform: translateZ(160px) scale(.12);
+    transform: translateZ(160px) scale(.9);
 }
 
 .layer-6 {
-    transform: translateZ(200px) scale(.7);
+    transform: translateZ(200px) scale(.5);
 }
 
 .hero-content {
