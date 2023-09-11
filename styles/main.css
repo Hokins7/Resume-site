@@ -100,7 +100,7 @@ body {
 }
 
 .layer-3 {
-    transform: translateZ(30px) scale(.8);
+    transform: translateZ(30px) scale(.7);
 }
 
 .layer-4 {
@@ -112,7 +112,7 @@ body {
 }
 
 .layer-6 {
-    transform: translateZ(200px) scale(.5);
+    transform: translateZ(200px) scale(.6);
 }
 
 .hero-content {
