@@ -112,7 +112,7 @@ body {
 }
 
 .layer-6 {
-    transform: translateZ(200px) scale(.6);
+    transform: translateZ(200px) scale(.5);
 }
 
 .hero-content {
