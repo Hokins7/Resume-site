@@ -181,7 +181,7 @@ h6 {
 
 .gallery {
     display: flex;
-    padding: calc(var(--index) * 8) 0;
+    padding: calc(var(--index) * 9) 0;
 }
 
 .gallery>* {
@@ -207,7 +207,7 @@ h6 {
 .gallery__right .gallery__item {
     margin: 0;
     margin-top: var(--gallery-gap);
-    font-size: calc(var(--index) * .8);
+    font-size: calc(var(--index) * .9);
 }
 
 span {
