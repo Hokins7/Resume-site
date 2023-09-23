@@ -175,13 +175,13 @@ h6 {
 }
 
 .container {
-    padding: 0 8vw;
+    padding: 0 7vw;
 }
 
 
 .gallery {
     display: flex;
-    padding: calc(var(--index) * 9) 0;
+    padding: calc(var(--index) * 8) 0;
 }
 
 .gallery>* {
@@ -207,7 +207,7 @@ h6 {
 .gallery__right .gallery__item {
     margin: 0;
     margin-top: var(--gallery-gap);
-    font-size: calc(var(--index) * .9);
+    font-size: calc(var(--index) * .8);
 }
 
 span {
@@ -235,7 +235,7 @@ span {
 
 .company {
     margin-bottom: 1rem;
-    line-height: 3rem;
+    line-height: 2rem;
     font-size: .9rem;
 }
 
