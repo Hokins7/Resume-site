@@ -362,7 +362,7 @@ footer>p {
 
     .hero-content__p,
     .hero-content__p2 {
-        font-size: calc(var(--index) * 1.8);
+        font-size: calc(var(--index) * 1.5);
         line-height: 2;
     }
 
