@@ -1,3 +1,8 @@
+window.addEventListener("load", function () {
+	// This event is triggered when the page and all its resources have finished loading.
+	document.querySelector(".loading-overlay").style.display = "none";
+});
+
 window.onload = () => {
 	var Cookies = document.cookie.split(';');
 	for (var i = 0; i < Cookies.length; i++) {
