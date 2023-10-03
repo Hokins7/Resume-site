@@ -1,6 +1,9 @@
 window.addEventListener("load", function () {
 	// This event is triggered when the page and all its resources have finished loading.
-	document.querySelector(".loading-overlay").style.display = "none";
+	var loadingOverlay = document.querySelector(".loading-overlay");
+	if (loadingOverlay) {
+		loadingOverlay.style.display = "none";
+	}
 });
 
 window.onload = () => {
