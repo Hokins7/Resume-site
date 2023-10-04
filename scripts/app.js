@@ -17,7 +17,7 @@ window.onload = () => {
 document.addEventListener('mousemove', el => {
 	Object.assign(document.documentElement, {
 		style: `
-        --move-x: ${(el.clientX - window.innerWidth / 2) * -.005}deg;
+        --move-x: ${(el.clientX - window.innerWidth / 2) * -.007}deg;
         --move-y: ${(el.clientX - window.innerHeight / 2) * -.01}deg;
         `
 	})
