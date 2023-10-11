@@ -1,10 +1,3 @@
-window.addEventListener("load", function () {
-	// This event is triggered when the page and all its resources have finished loading.
-	var loadingOverlay = document.querySelector(".loading-overlay");
-	if (loadingOverlay) {
-		loadingOverlay.style.display = "none";
-	}
-});
 
 window.onload = () => {
 	var Cookies = document.cookie.split(';');
@@ -73,3 +66,38 @@ if (ScrollTrigger.isTouch !== 1) {
 	})
 
 }
+
+window.addEventListener("load", function () {
+	// This event is triggered when the page and all its resources have finished loading.
+	var loadingOverlay = document.querySelector(".loading-overlay");
+	if (loadingOverlay) {
+	  loadingOverlay.style.display = "none";
+
+	  // Remove the class that disables scrolling
+	  document.body.classList.remove("disable-scrolling");
+	}
+  });
+
+  // Add an event listener to wait for images to load
+  window.addEventListener("DOMContentLoaded", function () {
+	var images = document.querySelectorAll("img");
+	var loadedImageCount = 0;
+
+	images.forEach(function (img) {
+	  img.addEventListener("load", function () {
+		loadedImageCount++;
+
+		// Check if all images are loaded
+		if (loadedImageCount === images.length) {
+		  // All images are loaded, you can remove the loading overlay
+		  var loadingOverlay = document.querySelector(".loading-overlay");
+		  if (loadingOverlay) {
+			loadingOverlay.style.display = "none";
+
+			// Remove the class that disables scrolling
+			document.body.classList.remove("disable-scrolling");
+		  }
+		}
+	  });
+	});
+  });
